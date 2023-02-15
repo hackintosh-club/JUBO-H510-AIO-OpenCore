@@ -50,7 +50,3 @@
 ![image](ScreenShot/Geekbench5.png)
 
 
-- CASE
-
-![image](ScreenShot/CASE.png)
-
