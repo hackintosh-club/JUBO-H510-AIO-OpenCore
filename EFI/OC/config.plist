@@ -112,6 +112,8 @@
                 <true/>
                 <key>EnableWriteUnprotector</key>
                 <false/>
+                <key>FixupAppleEfiImages</key>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -231,7 +233,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.6</string>
+                    <string>V1.8.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -573,30 +575,7 @@
                 <false/>
             </dict>
             <key>Tools</key>
-            <array>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Auxiliary</key>
-                    <true/>
-                    <key>Comment</key>
-                    <string>Not signed for security reasons</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Flavour</key>
-                    <string>OpenShell:UEFIShell:Shell</string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Name</key>
-                    <string>UEFI Shell</string>
-                    <key>Path</key>
-                    <string>OpenShell.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-            </array>
+            <array/>
         </dict>
         <key>NVRAM</key>
         <dict>
@@ -688,13 +667,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02124501QX0000UE</string>
+                <string>C02113102GU0000JA</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>4105</integer>
                 <key>ROM</key>
-                <data>o6FeyCBH</data>
+                <data>wSPxdDi2</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -702,9 +681,9 @@
                 <key>SystemProductName</key>
                 <string>iMac20,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02FVLZP046M</string>
+                <string>C02FH0QD046M</string>
                 <key>SystemUUID</key>
-                <string>9676F688-89A3-4123-9389-1208857966FC</string>
+                <string>BAE236F8-09A1-4E1A-A8CF-2F171ADDEB9F</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
